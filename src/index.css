@@ -1,13 +1,97 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  display: flex;
+  height: 73vh;
+}
+.left {
+  width: 50vw;
+  text-align: center;
+  background-color: beige;
+}
+.style {
+  text-align: "center";
+  margin-top: 2rem;
+  padding-left: 29rem;
+}
+.right {
+  width: 50vw;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.eachData {
+  border: 2px;
+  border-left: 3px solid red;
+  background-color: white;
+  border-style: ridge;
+  text-align: auto;
+  padding-left: 1rem;
+  margin: 1rem;
+  overflow-x: auto;
+}
+.button {
+  background-color: #008cba;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.title {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.textarea {
+  width: 90%;
+  height: 13rem;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.search {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.buttonStyle {
+  height: 2.8rem;
+  width: 2.8rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: "1px solid black";
+  border-radius: 20%;
+}
+.search:focus {
+  width: 35%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type="submit"] {
+  width: 80%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
