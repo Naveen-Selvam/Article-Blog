@@ -13,8 +13,11 @@ This is an article-task-blog where the user can add the title and content that s
 - react
 - Markdown Editor
 
+### Screen Shots
 ![alt text](../main/src/screenshots/img1.png)
-
-
-
+![alt text](../main/src/screenshots/img2.png)
+![alt text](../main/src/screenshots/img3.png)
+![alt text](../main/src/screenshots/img4.png)
+![alt text](../main/src/screenshots/img5.png)
+![alt text](../main/src/screenshots/img6.png)
 
